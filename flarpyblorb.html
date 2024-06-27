@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Flarpy Blorb - Lyuying Guo</title>
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+        <header>
+            <!--navigation menu-->
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <!--home logo-->
+                <div class="navbar-brand">
+                  <a class="navbar-item" href="index.html">
+                    <img src="media/favicon.jpg"/>
+                  </a>
+                </div>
+                <!--menu items-->
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="blog.html">Blog</a>
+                        <a class="navbar-item" href="about.html">About</a>
+                        <a class="navbar-item" href="media/Resume.pdf" target="_blank">Resume</a> 
+                    </div>
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="art.html">Art</a>
+                        <a class="navbar-item" href="animation.html">Animation</a>
+                        <a class="navbar-item is-selected" href="game.html">Game</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="topsticker">
+                <a href="game.html">
+                    <button class="button is-ghost">
+                    <span class="icon">
+                        <i class="fa fa-angle-left"></i>
+                    </span>
+                    </button>
+                </a>
+            </div>
+            <div class="content">
+                <h1 class="pagetitle">Flarpy Blorb</h1>
+            </div>
+        </header>
+        <main class="gamesub">
+            <div class="content has-text-centered mb-6">
+                <p><b>Year</b>: 2024</p>
+                <p><b>Artist & Programmer</b>: Lyuying Guo</p>
+                <p><b>Engine</b>: Unity (2D)</p>
+                <p><b>Reference Tutorial</b>: Game Maker's Toolkit (Mark Brown) on
+                    <a href="https://www.youtube.com/watch?v=XtQMytORBmM&list=PLpYtaP35bA_BYI-4y3Fh20-WzSqlCTR-3" target="_blank">YouTube</a>
+                </p>
+            </div>
+            <div class="content">
+                <h3 class="sectiontitle">Gameplay Demo</h3>
+            </div>
+            <figure class="image is-16by9 mb-6">
+                <iframe
+                  class="has-ratio"
+                  width="640"
+                  height="360"
+                  src="media/game/flarpyblorbdemo.mp4"
+                  title="Gameplay Demo"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+            </figure>
+            <div class="content">
+                <h3 class="sectiontitle">Developer's Journal</h3>
+            </div>
+            <div class="content">
+                <p>As an artist, I had been wanting to do more than just drawing game assets.
+                    After graduating from art school, I used this project to practice scripting in Unity as a beginner.</p>
+                <p>I ended up learning the C# programming language both in and out of the Unity context, triggering events, watching and reflecting game events with UI, manipulating the particle system, and... made a full game by myself!</p>
+            </div>
+            <hr/>
+            <div class="content">
+                <p class="has-text-centered">Access full project code on
+                    <a href="https://github.com/guolyuying/flarpyblorbgame-public" target="_blank">GitHub</a>
+                </p>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footsticker">
+                <a href="#">
+                    <button class="button is-ghost">
+                        <span class="icon">
+                            <i class="fa fa-angles-up"></i>
+                        </span>
+                    </button>
+                </a>
+            </div>
+            <div class="block has-text-centered">
+                <a href="mailto:guolyuying@gmail.com" target="_blank">
+                    <button class="button is-rounded">
+                    <span class="icon">
+                        <i class="fa fa-envelope"></i>
+                    </span>
+                    <span>Email</span>
+                    </button>
+                </a>
+                <a href="https://github.com/guolyuying" target="_blank">
+                    <button class="button is-rounded">
+                    <span class="icon">
+                        <i class="fa-brands fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                    </button>
+                </a>
+            </div>
+            <div class="content has-text-left">
+                <span class="icon">
+                    <i class="fa fa-copyright"></i>
+                </span>
+                <span>2024 LYUYING GUO</span>
+            </div>
+        </footer>
+    </body>
+</html>

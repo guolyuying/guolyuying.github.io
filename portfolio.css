@@ -1,0 +1,40 @@
+/* Bulma */
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+/* Font Awesome */
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css";
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Page-specific stylesheets */
+@import "index.css";
+@import "game.css";
+@import "blog.css";
+
+
+/* universal to all pages */
+
+* {
+    font-family: "Source Code Pro", monospace;
+}
+
+.pagetitle {
+    text-align: center;
+    padding: 1rem 0 0 0;
+}
+
+.sectiontitle {
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.topsticker {
+    position: fixed;
+    top: 3rem; 
+    left: 0.3rem;
+}
+
+.footsticker {
+    position: fixed;
+    bottom: 0.3rem; 
+    left: 0.3rem;
+}

@@ -1,0 +1,34 @@
+/* Index/Home page */
+
+h1.hometitle {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 4rem;
+    font-weight: 700;
+    color: orange;
+}
+
+h2.homesubtitle {
+    font-size: 1.25rem;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.hometext {
+    padding: 12rem 0 1rem 0;
+    text-align: center;
+}
+
+.homebuttons {
+    padding: 0 0 10rem 0;
+    text-align:center;
+}
+
+main.home {
+    background-image: url("media/homebg.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+

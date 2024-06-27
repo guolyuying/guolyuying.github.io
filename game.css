@@ -1,0 +1,21 @@
+/* Game page */
+
+.game-cover {
+    opacity: 0.5;
+}
+
+.game-cover:hover {
+    opacity:1.0;
+}
+
+@media (min-width:961px) { /* tablet & desktop */ 
+    .gamesub {
+        margin: 3rem 10rem 3rem 10rem;
+    }
+}
+
+@media (max-width:961px) { /* mobile */
+    .gamesub {
+        margin: 3rem 3rem 3rem 3rem;
+    }
+}
