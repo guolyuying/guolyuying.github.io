@@ -23,7 +23,7 @@ h2.homesubtitle {
 }
 
 main.home {
-    background-image: url("media/homebg.png");
+    background-image: url("Media/homebg.png");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
