@@ -53,16 +53,16 @@
             </div>
             <div class="fixed-grid has-1-cols">
                 <div class="grid">
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalA1')">
                         <img src="Media/Art/Bg9.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalA2')">
                         <img src="Media/Art/Bg21.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalA3')">
                         <img src="Media/Art/Bg86.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalA4')">
                         <img src="Media/Art/Bg98.jpg">
                     </div>
                 </div>
@@ -73,33 +73,31 @@
             </div>
             <div class="fixed-grid has-3-cols-desktop has-1-cols-mobile">
                 <div class="grid">
-                    <div class="cell">
-                        <a href="https://music.youtube.com/watch?v=TTzx9wS5F8Q" target="_blank">
-                            <img src="Media/Art/magicthreads.png">
-                        </a>
+                    <div class="cell" onclick="openModal('modalB1')">
+                        <img src="Media/Art/magicthreads.png">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalB2')">
                         <img src="Media/Art/henry.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalB3')">
                         <img src="Media/Art/oxygen.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalB4')">
                         <img src="Media/Art/Florence.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalB5')">
                         <img src="Media/Art/Krish.jpeg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalB6')">
                         <img src="Media/Art/henry2.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalB7')">
                         <img src="Media/Art/Fujiwara.jpeg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalB8')">
                         <img src="Media/Art/Kaguya.jpeg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalB9')">
                         <img src="Media/Art/Shirogane.jpg">
                     </div>
                 </div>
@@ -110,37 +108,311 @@
             </div>
             <div class="fixed-grid has-3-cols-desktop has-1-cols-mobile">
                 <div class="grid">
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalC1')">
                         <img src="Media/Art/dsc8.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalC2')">
                         <img src="Media/Art/dsc15.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalC3')">
                         <img src="Media/Art/dsc17.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalC4')">
                         <img src="Media/Art/dsc19.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalC5')">
                         <img src="Media/Art/dsc20.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalC6')">
                         <img src="Media/Art/dsc22.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalC7')">
                         <img src="Media/Art/dsc23.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalC8')">
                         <img src="Media/Art/grapes.jpg">
                     </div>
-                    <div class="cell">
+                    <div class="cell" onclick="openModal('modalC9')">
                         <img src="Media/Art/dsc25.jpg">
                     </div>
                 </div>
             </div>
+
+            <!--Modals-->
+
+            <!--Background Art-->
+            <div id="modalA1" class="modal">
+                <div onclick="closeModal('modalA1')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Bg9.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalA2" class="modal">
+                <div onclick="closeModal('modalA2')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Bg21.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalA3" class="modal">
+                <div onclick="closeModal('modalA3')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Bg86.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalA4" class="modal">
+                <div onclick="closeModal('modalA4')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Bg98.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <!--Illustration-->
+
+            <div id="modalB1" class="modal">
+                <div onclick="closeModal('modalB1')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/magicthreads.png" alt="">
+                  </p>
+                </div>
+            </div>
+            
+            <div id="modalB2" class="modal">
+                <div onclick="closeModal('modalB2')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/henry.jpg" alt="">
+                  </p>
+                </div>
+            </div>
     
+            <div id="modalB3" class="modal">
+                <div onclick="closeModal('modalB3')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/oxygen.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalB4" class="modal">
+                <div onclick="closeModal('modalB4')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Florence.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalB5" class="modal">
+                <div onclick="closeModal('modalB5')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Krish.jpeg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalB6" class="modal">
+                <div onclick="closeModal('modalB6')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/henry2.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalB7" class="modal">
+                <div onclick="closeModal('modalB7')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Fujiwara.jpeg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalB8" class="modal">
+                <div onclick="closeModal('modalB8')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Kaguya.jpeg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalB9" class="modal">
+                <div onclick="closeModal('modalB9')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Shirogane.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <!--Sketchbook-->
+
+            <div id="modalC1" class="modal">
+                <div onclick="closeModal('modalC1')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/dsc8.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalC2" class="modal">
+                <div onclick="closeModal('modalC2')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/dsc15.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalC3" class="modal">
+                <div onclick="closeModal('modalC3')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/dsc17.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalC4" class="modal">
+                <div onclick="closeModal('modalC4')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/dsc19.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalC5" class="modal">
+                <div onclick="closeModal('modalC5')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/dsc20.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalC6" class="modal">
+                <div onclick="closeModal('modalC6')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/dsc22.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalC7" class="modal">
+                <div onclick="closeModal('modalC7')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/dsc23.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalC8" class="modal">
+                <div onclick="closeModal('modalC8')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/grapes.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalC9" class="modal">
+                <div onclick="closeModal('modalC9')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/dsc25.jpg" alt="">
+                  </p>
+                </div>
+            </div>
+
+              <script src="imagemodal.js"></script>
+
         </main>
+
         <footer class="footer">
             <div class="lightswitch">
                 <button class="button is-ghost is-large" onclick="darkMode()">
