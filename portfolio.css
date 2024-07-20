@@ -44,3 +44,16 @@
     bottom: 0.3rem;
     right: 0rem;
 }
+
+/* Currently only used on 3d page */
+@media (min-width:961px) { /* tablet & desktop */ 
+    .notes {
+        margin: -1rem 10rem 0rem 10rem;
+    }
+}
+
+@media (max-width:961px) { /* mobile */
+    .notes {
+        margin: -1rem 0rem 0rem 0rem;
+    }
+}
