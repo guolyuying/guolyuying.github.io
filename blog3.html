@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html id="html" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blog 3 - Lyuying Guo</title>
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+                <div class="navbar-brand">
+
+                  <a class="navbar-item" href="index.html">
+                    <img src="Media/favicon.jpg"/>
+                  </a>
+
+                  <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+
+                </div>
+
+                <div id="menu" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item is-selected" href="blog.html">Blog</a>
+                        <a class="navbar-item" href="about.html">About</a>
+                        <a class="navbar-item" href="Media/Resume.pdf" target="_blank">Resume</a>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="art.html">Art</a>
+                        <a class="navbar-item" href="3d.html">3D</a>
+                        <a class="navbar-item" href="animation.html">Animation</a>
+                        <a class="navbar-item" href="game.html">Game</a>
+                    </div>
+                </div>
+                
+            </nav>
+            <script src="navbar.js"></script>
+
+            <div class="topsticker">
+                <a href="blog.html">
+                    <button class="button is-ghost">
+                    <span class="icon">
+                        <i class="fa fa-angle-left"></i>
+                    </span>
+                    </button>
+                </a>
+            </div>
+
+            <div class="content">
+                <p class="has-text-centered">BLOG 3</p>
+            </div>
+            <div class="content blogtitle m-6">
+                <h1 class="is-size-1 has-text-centered">
+                    You Never Know When Coding Comes in Handy...
+                </h1>
+            </div>
+            
+        </header>
+        <main class="m-6">
+            <div class="content has-text-centered m-6">
+                <p><b>by Lyuying Guo</b></p>
+                <p> <b>Published</b> Jul 29, 2024</p>
+            </div>
+            <div class="content blogbody">
+                <p>
+                    My mom writes newspaper articles based on recorded oral interviews occasionally. Today, she gave me an hour-long audio file and asked me to transcribe it into text, since her transcription software wasn't working properly.
+                </p>
+                <br>
+                <p>
+                    I’ve done manual transcriptions for my mom in the past, before machine transcription tools were popularized. Sitting there for hours, playing the audio clips back and forth, and typing for hours on end was painful.
+                </p>
+                <br>
+                <p>
+                    I researched some transcription tools online such as as Notta and Maestro. They perform well, generating texts fast and are able to tell different speakers apart. However, the free version only shows the transcription of the first 3 minutes. The payment plans didn’t seem worth it for a one-time use.
+                </p>
+                <br>
+                <p>
+                    So I turned to ChatGPT, although I’ve been avoiding it in the past few years due to my reserved thoughts about the public’s hype over the chatbot. Turns out, this smartass personal assistant isn’t that smart yet:
+                </p>
+                <br>
+                <figure class="has-text-centered">
+                    <img src="Media/Blog/Blog3a.jpg" style="width: 600;"/>
+                </figure>
+                <br>
+                <br>
+                <p>
+                    Whelp, I guess you either pay by money or effort in this economy.
+                </p>
+                <br>
+                <p>
+                    I was ready to do some hands-on work with open-source technologies. I found out about Whisper – OpenAI’s machine learning model for speech recognition and transcription. By following a <a href="https://youtu.be/8SQV-B83tPU?si=lmc5_r-i8eCRWX7_" target="_blank">YouTube tutorial</a>, I ran the model through Google Colab (It allows you to use Jupyter Notebook on Google Drive without having to install anything on your local drive. Very convenient!). After splitting the original audio into two parts on my MacBook's Voice Memos, I managed to transcribe the whole hour of audio into text with a few lines of command. I cannot describe my joy when I saw transcribed text popping up line after line as I hit the “run” button, preceded by two hours of laborious research on alternative tools.
+                </p>
+                <br>
+                <br>
+                <figure class="image has-text-centered">
+                    <img src="Media/Blog/Blog3b.jpg">
+                </figure>
+                <br>
+                <br>
+                <p>
+                    Later, I went into the machine-generated text file for an hour of manual editing to delete filler words, unnecessary line breaks, and reorganized the paragraphs to make the transcription more readable. (Althought you don’t really need this step since the machine transcription is already quite accurate. I just did it to make my mom’s work easier.)
+                </p>
+                <br>
+                <p>
+                    Without my previous venture in self-taught coding, I probably wouldn’t be able to use technology to save time in my mom’s editorial job today. She gladly praised my work.
+                </p>
+                <br>
+                <p>
+                    Man, I love paying by time and effort, not money.
+                </p>
+            </div>
+            <hr/>
+        </main>
+        <footer class="footer">
+            <div class="lightswitch">
+                <button class="button is-ghost is-large" onclick="darkMode()">
+                    <span class="icon">
+                        <i class="fa fa-sun" id="icon"></i>
+                    </span>
+                </button>
+                <script src="lightswitch.js"></script>
+            </div>
+            <div class="footsticker">
+                <a href="#">
+                    <button class="button is-ghost">
+                        <span class="icon">
+                            <i class="fa fa-angles-up"></i>
+                        </span>
+                    </button>
+                </a>
+            </div>
+            <div class="block has-text-centered">
+                <a href="mailto:guolyuying@gmail.com" target="_blank">
+                    <button class="button is-rounded">
+                    <span class="icon">
+                        <i class="fa fa-envelope"></i>
+                    </span>
+                    <span>Email</span>
+                    </button>
+                </a>
+                <a href="https://github.com/guolyuying" target="_blank">
+                    <button class="button is-rounded">
+                    <span class="icon">
+                        <i class="fa-brands fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                    </button>
+                </a>
+                <a href="https://www.linkedin.com/in/lyuying-guo-4243112b4/" target="_blank">
+                    <button class="button is-rounded">
+                    <span class="icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </span>
+                    <span>LinkedIn</span>
+                    </button>
+                </a>
+            </div>
+            <div class="content has-text-left">
+                <span class="icon">
+                    <i class="fa fa-copyright"></i>
+                </span>
+                <span>2024 LYUYING GUO</span>
+            </div>
+        </footer>
+    </body>
+</html>
