@@ -70,11 +70,20 @@
                         <img src="Media/Art/Bg98.jpg">
                     </div>
                     <div class="cell" onclick="openModal('modalA5')">
+                        <img src="Media/Art/Bg96.jpeg">
+                    </div>
+                    <div class="cell" onclick="openModal('modalA6')">
                         <img src="Media/Art/Bg12-15.jpeg">
+                    </div>
+                    <div class="cell" onclick="openModal('modalA7')">
+                        <img src="Media/Art/Bg26.jpeg">
+                    </div>
+                    <div class="cell" onclick="openModal('modalA8')">
+                        <img src="Media/Art/Bg19.jpeg">
                     </div>
                 </div>
             </div>
-            
+
             <div class="content">
                 <h3 class="sectiontitle">Illustration (Client)</h3>
             </div>
@@ -83,22 +92,38 @@
                 <p>Client: Melissa Tungare (musician)</p>
                 <p><a href="https://music.youtube.com/playlist?list=OLAK5uy_m_k8PpO0Px_bQXUtue5DES-GL84Gs2uYQ" target="_blank">Listen to Magic Threads on YouTube Music</a></p>
             </div>
-            <figure class="has-text-centered" onclick="openModal('modalB10')">
-                <img src="Media/Art/magicthreads.jpg" width="600">
-            </figure>
-            <img src="Media/Art/magicthreadsMusic.jpg">
-            <br>
-            <br>
-            <br>
-
+            <div class="fixed-grid has-1-cols">
+                <div class="grid">
+                    <div class="cell has-text-centered" onclick="openModal('modalB10')">
+                        <img src="Media/Art/magicthreads.jpg" width="600">
+                    </div>
+                    <div class="cell">
+                        <img src="Media/Art/magicthreadsMusic.jpg">
+                    </div>
+                </div>
+            </div>
             <div class="content">
                 <p><b>Web Illustration</b></p>
                 <p>Client: <a href="https://www.sofamon.xyz/" target="_blank">Sofamon</a> (Web3 startup)</p>
-                <img src="Media/Art/SofamonLogo.png">
-                <img src="Media/Art/SofamonHome.jpg">
-                <img src="Media/Art/SofamonLottery1.jpg">
-                <img src="Media/Art/SofamonLottery2.jpg">
-                <img src="Media/Art/SofamonLottery3.jpg">
+                <div class="fixed-grid has-1-cols">
+                    <div class="grid">
+                        <div class="cell">
+                            <img src="Media/Art/SofamonLogo.png">
+                        </div>
+                        <div class="cell">
+                            <img src="Media/Art/SofamonHome.jpg">
+                        </div>
+                        <div class="cell">
+                            <img src="Media/Art/SofamonLottery1.jpg">
+                        </div>
+                        <div class="cell">
+                            <img src="Media/Art/SofamonLottery2.jpg">
+                        </div>
+                        <div class="cell">
+                        <img src="Media/Art/SofamonLottery3.jpg">
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="content">
@@ -136,7 +161,6 @@
                 </div>
             </div>
               
-
             <div class="content">
                 <h3 class="sectiontitle">Sketchbook</h3>
             </div>
@@ -238,7 +262,43 @@
                 </div>
                 <div class="modal-content">
                   <p class="image">
+                    <img src="Media/Art/Bg96.jpeg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalA6" class="modal">
+                <div onclick="closeModal('modalA6')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
                     <img src="Media/Art/Bg12-15.jpeg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalA7" class="modal">
+                <div onclick="closeModal('modalA7')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Bg26.jpeg" alt="">
+                  </p>
+                </div>
+            </div>
+
+            <div id="modalA8" class="modal">
+                <div onclick="closeModal('modalA8')">
+                    <div class="modal-background"></div>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                </div>
+                <div class="modal-content">
+                  <p class="image">
+                    <img src="Media/Art/Bg19.jpeg" alt="">
                   </p>
                 </div>
             </div>
