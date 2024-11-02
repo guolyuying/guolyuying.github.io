@@ -17,7 +17,10 @@ h2.homesubtitle {
     text-align: center;
 }
 
-.homebuttons {
+.homebuttons1 {
+    text-align:center;
+}
+.homebuttons2 {
     padding: 0 0 10rem 0;
     text-align:center;
 }
