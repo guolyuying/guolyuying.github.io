@@ -13,8 +13,15 @@ h2.homesubtitle {
 }
 
 .hometext {
-    padding: 12rem 0 1rem 0;
+    padding: 4rem 0 1rem 0;
     text-align: center;
+}
+
+@media (min-width:641px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .hometext {
+        padding: 12rem 0 1rem 0;
+        text-align: center;
+    }
 }
 
 .homebuttons1 {
@@ -23,6 +30,17 @@ h2.homesubtitle {
 .homebuttons2 {
     padding: 0 0 10rem 0;
     text-align:center;
+}
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .homebuttons1 {
+        text-align:center;
+        font-size: 0.5rem;
+    }
+    .homebuttons2 {
+     
+        text-align:center;
+    }
 }
 
 main.home {
